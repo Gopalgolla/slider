@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.review-card {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-content {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.stars {
+    color: #b07a51;
+    font-size: 1.2em;
+}
+
+.review-content p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0 0 0;
+}
+
+.reviewer-info {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.reviewer-info h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.reviewer-info p {
+    font-size: 1em;
+    color: #b07a51;
+    margin: 0;
+}
