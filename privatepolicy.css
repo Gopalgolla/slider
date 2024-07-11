@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.navbar .logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .menu {
+    display: flex;
+    align-items: center;
+}
+.navbar .menu a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navbar .menu a:hover {
+    color: white;
+}
+.navbar .menu .cart {
+    display: flex;
+    align-items: center;
+}
+.navbar .menu .cart img {
+    height: 24px;
+    margin-right: 5px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text-content {
+    max-width: 600px;
+}
+.text-content h1 {
+    font-size: 78px;
+    margin-bottom: 20px;
+    color: white;
+}
+.text-content p{
+color:whi;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.button{
+    background-color: rgb(201, 183, 183);
+    padding: 10px;
+}
+.buttons .button {
+    display: flex;
+    align-items: center;
+    background-color:white;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* .main span img{
+    margin-left: 550px;
+   
+} */
+ .main p{
+    margin-left: 500px;
+margin-top: -350px;
+font-size: 40px;
+
+ }
+ .main span img{
+    margin-left: 1000px;
+    margin-top: -200px;
+    width: 30%;
+ }
+ .main1 h2{
+    padding: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+ }
+ .main1 p{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(122, 113, 113);
+    margin-left: 25px;
+ }
+ .main1 h3{
+    margin-left: 50px;
+ }
