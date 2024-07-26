@@ -75,7 +75,7 @@ nav h1{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-.main {
+.blog {
     margin-top: 120px;
     width: 100%;
     max-width: 1500px;
@@ -85,13 +85,14 @@ nav h1{
     overflow: hidden;
 }
 
+
 header {
     background-color: #f8f8f8;
     padding: 10px 20px;
     border-bottom: 1px solid #ddd;
 }
 
-.main header h1 {
+.blog header h1 {
     margin: 0;
     font-size: 30px;
     color: #333;
@@ -125,6 +126,9 @@ article .summary {
 .main1 img{
 width: 100%;
 height: 500px;
+}
+.main1 p{
+    font-size: 25px;
 }
 .container {
     display: flex;
@@ -356,4 +360,11 @@ footer{
     color: white;
     margin-top: 50px;
     }
+.image-section img{
+    height: 500px;
+    width: 300px;
+}
+.text-section{
+    font-size: 20px;
+}
 
